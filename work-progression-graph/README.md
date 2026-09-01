@@ -18,7 +18,7 @@ own formulas for the same dataset).
 ## Install
 
 ```sh
-npm install work-progression-graph
+pnpm add work-progression-graph
 ```
 
 ## Usage
@@ -110,8 +110,8 @@ function ProgressionChart({ graph }: { graph: WorkProgressionGraphResult }) {
 ## Development
 
 ```sh
-npm install
-npm run typecheck
-npm test
-npm run build
+pnpm install
+pnpm run typecheck
+pnpm test
+pnpm run build
 ```
