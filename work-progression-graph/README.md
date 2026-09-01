@@ -107,6 +107,17 @@ function ProgressionChart({ graph }: { graph: WorkProgressionGraphResult }) {
 }
 ```
 
+## Demo
+
+A runnable Vite + React demo lives in `demo/`, rendering the SVG example
+above with sample weekly data (including a couple of skipped/carried-
+forward weeks):
+
+```sh
+pnpm install
+pnpm run demo
+```
+
 ## Development
 
 ```sh
