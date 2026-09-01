@@ -1,0 +1,26 @@
+{
+  "name": "work-progression-graph",
+  "version": "0.1.0",
+  "description": "Headless React hook for a portfolio work-progression ladder chart: weighted-mean status position over regular reporting periods, with carry-forward for missing reports and an optional planned-progression curve. Logic only — no rendering or styling.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
